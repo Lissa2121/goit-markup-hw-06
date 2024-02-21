@@ -31,13 +31,12 @@ img {
 }
 
 .container {
-    /* width: 100%; */
-    max-width: 1158px;
-    /* max-width: 1128px; */
+
+    /* max-width: 1158px; */
+    max-width: 320px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* outline: 2px solid red; */
 
 }
 
@@ -891,4 +890,10 @@ img {
     display: block;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* =============MEDIA=============== */
+
+@media screen and (min-width:) {
+    
 }
