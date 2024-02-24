@@ -309,9 +309,6 @@ img {
 }
 
 @media screen and (min-width:768px) {
-    .container {
-            max-width: 768px;
-        }
 
     .hero {
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/tablet-hero.jpg);
@@ -337,11 +334,6 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .hero {
         padding-top: 188px;
@@ -425,9 +417,6 @@ img {
 }
 
 @media screen and (min-width:768px) {
-    .container {
-        max-width: 768px;
-    }
 
     .features {
         padding-top: 90px;
@@ -450,11 +439,6 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-     .container {
-        /* max-width: 1158px; */
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .features-container {
         /* max-width: 1158px; */
@@ -465,7 +449,6 @@ img {
 
     .features {
         /* max-width: 1158px; */
-        padding-right: 390px;
         padding-top: 120px;
         padding-bottom: 120px;
     }
@@ -619,9 +602,6 @@ img {
 }
 
 @media screen and (min-width:768px) {
-    .container {
-        max-width: 558px;
-    }
 
     .team-container-team {
         padding-left: 108px;
@@ -660,9 +640,6 @@ img {
 
 
     .team-list {
-        top: 50%;
-            transform: translateX(-50%);
-            padding-left: 50px;
             display: flex;
             flex-wrap: nowrap;
             gap: 24px;
@@ -670,7 +647,7 @@ img {
      
         .team-item {
             /* width: calc((100% - 72px) / 4); */
-            width: 264px;
+            /* width: 264px; */
         }
     
 }
@@ -771,9 +748,6 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
 
     .portfolio-list {
         display: flex;
@@ -794,12 +768,6 @@ img {
 }
 
 @media screen and (min-width: 1158) {
-
-    .container {
-        max-width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .portfolio {
         padding-top: 120px;
@@ -1010,7 +978,7 @@ img {
     }
 
     .footer-container {
-        max-width: 768px;
+        /* max-width: 768px; */
     }
 
     .footer-logo-text {
@@ -1039,9 +1007,9 @@ img {
     }
 
     .footer-container {
-        max-width: 1158px;
+        /* max-width: 1158px;
         padding-left: 15px;
-        padding-right: 15px;
+        padding-right: 15px; */
         display: flex;
         margin: 0 auto;
         align-items: baseline;
