@@ -846,7 +846,7 @@ img {
 }
 
 .footer-text-icon {
-    margin: 0 auto;
+    margin: 0;
 }
 
 .text-icon {
@@ -901,8 +901,7 @@ img {
 }
 
 .footer-subscribe {
-    margin-left: auto;
-    width: 100%;
+    /* margin-left: auto; */
     /* margin-left: 79px; */
 }
 
@@ -925,7 +924,8 @@ img {
     /* justify-content: space-between; */
 }
 
-.footer-label {}
+.footer-label {
+}
 
 .footer-input {
     /* width: 264px; */
@@ -997,6 +997,10 @@ img {
     .footer-form {
         flex-wrap: nowrap;
         margin-right: 24px;
+    }
+
+    .footer-input {
+        max-width: 264px;
     }
     
 }
