@@ -762,6 +762,7 @@ img {
     }
 
     .portfolio-picture {
+        display: block;
         width: 356px;
     }
 }
