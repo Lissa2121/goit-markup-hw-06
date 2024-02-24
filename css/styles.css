@@ -28,7 +28,7 @@ a {
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -365,8 +365,8 @@ img {
 .features {
     /* padding-top: 120px;
     padding-bottom: 120px; */
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .features-list {
@@ -419,8 +419,8 @@ img {
 @media screen and (min-width:768px) {
 
     .features {
-        padding-top: 90px;
-        padding-bottom: 90px;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
     .features-container {
@@ -502,8 +502,7 @@ img {
 }
 
 .team-container-team {
-    padding-left: 28px;
-    padding-right: 28px;
+
 }
 
 .team-title {
@@ -529,7 +528,6 @@ img {
 }
 
 .team-item {
-    width: 100%;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -604,8 +602,6 @@ img {
 @media screen and (min-width:768px) {
 
     .team-container-team {
-        padding-left: 108px;
-        padding-right: 108px;
 
     }
 
@@ -615,10 +611,12 @@ img {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 64px;
+        justify-content: center;
+        align-content: center;
     }
 
     .team-item {
-    width: calc((100% - 24px) / 2);
+    /* width: calc((100% - 24px) / 2); */
     }  
     
       /* .team-picture {
@@ -660,7 +658,7 @@ img {
     /* padding-top: 120px;
     padding-bottom: 120px; */
     padding-top: 96px;
-        padding-bottom: 96px;
+    padding-bottom: 96px;
 }
 
 .portfolio-title {
@@ -768,7 +766,7 @@ img {
     }
 }
 
-@media screen and (min-width: 1158) {
+@media screen and (min-width: 1158px) {
 
     .portfolio {
         padding-top: 120px;
@@ -800,8 +798,8 @@ img {
     background: #2E2F42;
     /* padding-top: 100px;
     padding-bottom: 100px; */
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .footer-container {
