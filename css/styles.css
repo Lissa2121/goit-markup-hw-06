@@ -851,7 +851,7 @@ img {
 }
 
 .footer-text-icon {
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     /* display: flex;
     flex-wrap: wrap;
     justify-content: center; */
@@ -1034,7 +1034,7 @@ img {
             }
     
             .footer-logo-text {
-                margin-right: 120px;
+                /* margin-right: 120px; */
             }
 
     .footer-subscribe {
