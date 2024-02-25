@@ -807,14 +807,15 @@ img {
     padding-bottom: 96px;
 }
 
-.footer-container {
+/* .footer-container {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-}
+} */
 
 .footer-logo-text {
     text-align: center;
+    margin-bottom: 72px;
     /* margin-right: 120px; */
 }
 
@@ -850,6 +851,7 @@ img {
 }
 
 .footer-text-icon {
+    margin-bottom: 72px;
     /* display: flex;
     flex-wrap: wrap;
     justify-content: center; */
@@ -864,7 +866,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 70px;
     margin-bottom: 16px;
 }
 
@@ -917,7 +918,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     margin-bottom: 16px;
     text-align: center;
 }
@@ -985,6 +986,9 @@ img {
 
     .footer-container {
         width: 584px;
+        display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
         /* max-width: 768px; */
     }
 
